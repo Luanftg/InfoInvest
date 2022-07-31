@@ -1,0 +1,25 @@
+<form id="form-simulador" action="/teste" method="GET" enctype="application/x-www-form-urlencoded">
+        <div class="label-input-simulador">
+            <label class="label-simulador" for="para-comecar">Para começar, qual valor
+                você gostaria de investir?</label>
+            <input class="input-simulador" type="number" name="aporteInicial" id="para-comecar" placeholder="R$">
+        </div>
+
+        <div class="label-input-simulador">
+            <label class="label-simulador" for="por-mes">E por mês, quanto gostaria de depositar?</label>
+            <input class="input-simulador" type="number" name="aporteMensal" id="por-mes" placeholder="R$">
+        </div>
+
+        <div class="label-input-simulador">
+            <label class="label-simulador" for="tempo">Quanto tempo em meses
+                deixaria seu dinheiro investido?</label>
+            <input class="input-simulador" type="number" name="meses" id="tempo">
+        </div>
+
+        <div class="label-input-simulador">
+            <label class="label-simulador" for="porcen">Qual a porcentagem de rentabilidade a.a?</label>
+            <input class="input-simulador" type="number" name="taxaAA" id="porcen" placeholder="%">
+        </div>
+
+        <button id="button-simulador" type="submit">Simule agora!</button>
+    </form>
